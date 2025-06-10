@@ -1,0 +1,35 @@
+[
+  {
+    "name": "fc1",
+    "type": "Dense",
+    "config": {
+      "activation": "relu"
+    },
+    "weights": [
+      "fc1.kernel",
+      "fc1.bias"
+    ]
+  },
+  {
+    "name": "fc2",
+    "type": "Dense",
+    "config": {
+      "activation": "relu"
+    },
+    "weights": [
+      "fc2.kernel",
+      "fc2.bias"
+    ]
+  },
+  {
+    "name": "logits",
+    "type": "Dense",
+    "config": {
+      "activation": "softmax"
+    },
+    "weights": [
+      "logits.kernel",
+      "logits.bias"
+    ]
+  }
+]
